@@ -44,10 +44,10 @@ public class KemcsoJatek {
         System.out.println("Melyik oszlopba szeretnéd mozgatni(1-4)?"); 
         hova = szam.nextLine(); 
         
-        return hova;
+        return hova;    
     }
     private static void lepes(String aktiv, String hova,String[] kemcso1,String[] kemcso2,String[] kemcso3,String[] kemcso4){
-    
+        
     }
      
 }
