@@ -21,7 +21,7 @@ public class KemcsoJatek {
         }
           
     }
-    private static void kiir(String[] kemcso1,String[]  kemcso2,String[]  kemcso3,String[]  kemcso4){
+    private static void kiir(String[] kemcso1,String[]  kemcso2,String[]  kemcso3,String[] kemcso4){
             System.out.println("|"+kemcso1[3]+"|"+kemcso2[3]+"|"+kemcso3[3]+"|"+kemcso4[3]+"|"); 
             System.out.println("|"+kemcso1[2]+"|"+kemcso2[2]+"|"+kemcso3[2]+"|"+kemcso4[2]+"|"); 
             System.out.println("|"+kemcso1[1]+"|"+kemcso2[1]+"|"+kemcso3[1]+"|"+kemcso4[1]+"|"); 
@@ -45,6 +45,9 @@ public class KemcsoJatek {
         hova = szam.nextLine(); 
         
         return hova;
+    }
+    private static void lepes(String aktiv, String hova,String[] kemcso1,String[] kemcso2,String[] kemcso3,String[] kemcso4){
+    
     }
      
 }
