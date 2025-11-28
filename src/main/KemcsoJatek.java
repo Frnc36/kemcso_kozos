@@ -15,9 +15,8 @@ public class KemcsoJatek {
         
         while (vege == 0){
             kiir(kemcso1,kemcso2,kemcso3,kemcso4);
-            String aktiv=jatekosvalasztas1();
-            String hova=jatekosvalasztas2();
-            System.out.println(aktiv+hova);
+            String aktiv = jatekosvalasztas1();
+            String hova = jatekosvalasztas2();
             vege=1;    
         }
           
